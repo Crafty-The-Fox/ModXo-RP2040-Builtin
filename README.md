@@ -4,7 +4,7 @@
 
 <a href="https://discord.gg/k2BQhSJ"><img src="https://github.com/Darkone83/ModXo-RP2040-Tiny/blob/main/Images/discord.svg"></a>
 
-A carrier board for the ModXo V1.0 with added support for Epimetheus. Based off of Darkone83's work.
+A carrier board for the ModXo V1.0 with added support for Epimetheus. Based off of Darkone83's work. (reversed from gerbers and provided documents on the github page)
 
 NOTE: anything after this is from the other repo.
 
