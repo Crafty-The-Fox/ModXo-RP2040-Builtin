@@ -1,4 +1,4 @@
-27696379825756900
+27698144637942980
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -110081,7 +110081,14 @@ Varistor VF
 0
 2
 2
-libs
+fpc
+FPC-SMD_8P-P0.50_FPC-05F-8PH20
+
+
+0
+10
+10
+fpc
 SOIC-8_5.275x5.275mm_P1.27mm
 SOIC, 8 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
