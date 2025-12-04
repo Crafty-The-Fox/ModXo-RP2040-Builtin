@@ -7848,16 +7848,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 35.56) (xy 74.295 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cd3194c-9c2a-4beb-b22d-a5d7f0a4a266")
-	)
-	(wire
-		(pts
 			(xy 292.1 195.58) (xy 307.34 195.58)
 		)
 		(stroke
@@ -10248,16 +10238,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 33.02) (xy 74.295 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc295f45-2bb9-4dc1-b158-8a5ce1feaf7e")
-	)
-	(wire
-		(pts
 			(xy 265.43 237.49) (xy 265.43 236.22)
 		)
 		(stroke
@@ -11827,27 +11807,6 @@
 			)
 		)
 	)
-	(label "LFRAME"
-		(at 74.295 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "81c07f8a-0de5-4558-935d-de925c091a43")
-		(property "LFRAME" ""
-			(at 74.295 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
 	(label "SWDIO"
 		(at 382.27 203.2 180)
 		(effects
@@ -11941,6 +11900,27 @@
 		)
 		(uuid "8a64cd4c-c7c0-4663-a399-b9754fc14adc")
 	)
+	(label "LFRAME"
+		(at 69.85 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8bbc8f14-26c9-4e10-b68a-f7b8e32d668c")
+		(property "LFRAME" ""
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
 	(label "STM_INT"
 		(at 105.41 120.65 0)
 		(fields_autoplaced yes)
@@ -12001,27 +11981,6 @@
 					(italic yes)
 				)
 				(justify left)
-			)
-		)
-	)
-	(label "LRAME_1.6"
-		(at 69.85 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "91d50f4a-a0dd-4408-ac6e-cb5607a74e0b")
-		(property "LRAME_1.6" ""
-			(at 69.85 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -12586,6 +12545,27 @@
 		)
 		(uuid "c19c29f5-ed54-4b36-9760-52268ad1e7e9")
 	)
+	(label "GND"
+		(at 59.69 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c47511b6-af61-4cbd-81b0-0d5ddd632fd5")
+		(property "GND" ""
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
 	(label "D0"
 		(at 307.34 137.16 180)
 		(fields_autoplaced yes)
@@ -12729,27 +12709,6 @@
 					(italic yes)
 				)
 				(justify left)
-			)
-		)
-	)
-	(label "LRAME_1.6"
-		(at 74.295 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "daa6ac0e-0fd8-4724-82b5-c4a0ce733570")
-		(property "LRAME_1.6" ""
-			(at 74.295 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -13689,74 +13648,6 @@
 			(project "ModXoRp2040"
 				(path "/b3e3495c-a7b3-4bbf-ac79-be9f84f367cc"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 57.15 35.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1871b7cf-542f-4b9a-8ac5-e9ace976d641")
-		(property "Reference" "J7"
-			(at 57.15 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.6 EN"
-			(at 57.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 57.15 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 57.15 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed5b437c-67aa-4ad8-b328-c27893b9e0be")
-		)
-		(pin "2"
-			(uuid "9139fb19-f128-423e-8fdc-59fdac361392")
-		)
-		(instances
-			(project "ModXoRp2040"
-				(path "/b3e3495c-a7b3-4bbf-ac79-be9f84f367cc"
-					(reference "J7")
 					(unit 1)
 				)
 			)
